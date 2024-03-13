@@ -75,13 +75,22 @@ const fill = [
     p: 1,
   },
   {
+    what: "-1...",
+    color: "#3B3B3B",
+    font: 1,
+    fn: () => {
+      score -= 1;
+    },
+    p: 6,
+  },
+  {
     what: "-3...",
     color: "#3B3B3B",
     font: 1,
     fn: () => {
       score -= 3;
     },
-    p: 9,
+    p: 3,
   },
   {
     what: "-5...",
