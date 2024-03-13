@@ -28,7 +28,7 @@ const fill = [
     color: "#FFCC19",
     font: 0,
     fn: () => {
-      score++;
+      score += 3;
     },
     p: 3,
   },
@@ -37,7 +37,7 @@ const fill = [
     color: "#FF1995",
     font: 0,
     fn: () => {
-      score++;
+      score += 4;
     },
     p: 2,
   },
@@ -46,7 +46,7 @@ const fill = [
     color: "#1A83FF",
     font: 1,
     fn: () => {
-      score++;
+      score += 5;
     },
     p: 1,
   },
@@ -63,7 +63,7 @@ const fill = [
       fin.innerHTML = "다시 플레이하기";
       scoreNow.innerHTML = "최종 점수 : " + scoreNow.innerHTML;
     },
-    p: 0.5,
+    p: 0.8,
   },
   {
     what: "x2배",
@@ -75,13 +75,13 @@ const fill = [
     p: 1,
   },
   {
-    what: "-1...",
+    what: "-3...",
     color: "#3B3B3B",
     font: 1,
     fn: () => {
-      score--;
+      score -= 3;
     },
-    p: 7,
+    p: 9,
   },
   {
     what: "-5...",
