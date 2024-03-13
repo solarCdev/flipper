@@ -1,0 +1,34 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>카드 플리퍼 🃏</title>
+  </head>
+  <body>
+    <link
+      rel="stylesheet"
+      as="style"
+      crossorigin
+      href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css"
+    />
+    <link rel="stylesheet" href="./filpper.css" />
+
+    <nav>
+      <h1>카드 플리퍼 Card Flipper 🃏</h1>
+    </nav>
+    <div class="wrap">
+      <button class="flipper">카드를 <br />뒤집어보세요!</button>
+      <p class="des">
+        카드를 뒤집고, 점수를 얻으세요! <br />
+        중간에 마이너스 카드도 섞여 있으니 주의하세요.
+      </p>
+      <div class="score-wrap">
+        <h2><span id="score">0</span>점</h2>
+        <button class="fin">여기서 끝내기</button>
+        <h3 id="res"></h3>
+      </div>
+    </div>
+    <script src="./flipper.js"></script>
+  </body>
+</html>
