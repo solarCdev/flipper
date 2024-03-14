@@ -12,7 +12,7 @@ const fill = [
     fn: () => {
       score++;
     },
-    p: 5,
+    p: 15,
   },
   {
     what: "+2",
@@ -21,7 +21,7 @@ const fill = [
     fn: () => {
       score += 2;
     },
-    p: 4,
+    p: 12,
   },
   {
     what: "+3",
@@ -30,7 +30,7 @@ const fill = [
     fn: () => {
       score += 3;
     },
-    p: 3,
+    p: 9,
   },
   {
     what: "+4",
@@ -39,7 +39,7 @@ const fill = [
     fn: () => {
       score += 4;
     },
-    p: 2,
+    p: 6,
   },
   {
     what: "LUCKY!<br> +5",
@@ -48,7 +48,7 @@ const fill = [
     fn: () => {
       score += 5;
     },
-    p: 1,
+    p: 3,
   },
   {
     what: "폭파! <br> 탈락... 🧨",
@@ -63,7 +63,7 @@ const fill = [
       fin.innerHTML = "다시 플레이하기";
       scoreNow.innerHTML = "최종 점수 : " + scoreNow.innerHTML;
     },
-    p: 0.8,
+    p: 1,
   },
   {
     what: "x2배",
@@ -72,7 +72,7 @@ const fill = [
     fn: () => {
       score *= 2;
     },
-    p: 1,
+    p: 3,
   },
   {
     what: "-1...",
@@ -81,7 +81,7 @@ const fill = [
     fn: () => {
       score -= 1;
     },
-    p: 6,
+    p: 18,
   },
   {
     what: "-3...",
@@ -90,7 +90,7 @@ const fill = [
     fn: () => {
       score -= 3;
     },
-    p: 3,
+    p: 9,
   },
   {
     what: "-5...",
@@ -99,7 +99,7 @@ const fill = [
     fn: () => {
       score -= 5;
     },
-    p: 2,
+    p: 6,
   },
   {
     what: "지금까지 모든 것 초기화 🕐",
@@ -108,7 +108,7 @@ const fill = [
     fn: () => {
       score = 0;
     },
-    p: 1,
+    p: 3,
   },
 ];
 
